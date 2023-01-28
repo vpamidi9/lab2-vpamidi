@@ -2,36 +2,62 @@ Information: Updating design information... (UID-85)
  
 ****************************************
 Report : qor
-Design : fifo1_sram
+Design : fifo1_srama
 Version: Q-2019.12-SP3
-Date   : Fri Jan 27 14:46:44 2023
+Date   : Fri Jan 27 21:30:56 2023
 ****************************************
 
 
-  Timing Path Group 'rclk'
+  Timing Path Group 'INPUTS'
   -----------------------------------
-  Levels of Logic:              21.00
-  Critical Path Length:          1.34
-  Critical Path Slack:           0.54
+  Levels of Logic:              23.00
+  Critical Path Length:          1.65
+  Critical Path Slack:           0.12
   Critical Path Clk Period:      2.00
   Total Negative Slack:          0.00
   No. of Violating Paths:        0.00
   Worst Hold Violation:          0.00
   Total Hold Violation:          0.00
   No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'OUTPUTS'
+  -----------------------------------
+  Levels of Logic:               3.00
+  Critical Path Length:          1.91
+  Critical Path Slack:           0.98
+  Critical Path Clk Period:      2.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'rclk'
+  -----------------------------------
+  Levels of Logic:              21.00
+  Critical Path Length:          1.38
+  Critical Path Slack:           0.49
+  Critical Path Clk Period:      2.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:         -0.16
+  Total Hold Violation:         -8.24
+  No. of Hold Violations:       56.00
   -----------------------------------
 
   Timing Path Group 'wclk'
   -----------------------------------
   Levels of Logic:              22.00
-  Critical Path Length:          1.35
-  Critical Path Slack:           0.54
+  Critical Path Length:          1.38
+  Critical Path Slack:           0.48
   Critical Path Clk Period:      2.00
   Total Negative Slack:          0.00
   No. of Violating Paths:        0.00
-  Worst Hold Violation:          0.00
-  Total Hold Violation:          0.00
-  No. of Hold Violations:        0.00
+  Worst Hold Violation:         -0.16
+  Total Hold Violation:        -18.59
+  No. of Hold Violations:      120.00
   -----------------------------------
 
 
@@ -52,25 +78,25 @@ Date   : Fri Jan 27 14:46:44 2023
 
   Area
   -----------------------------------
-  Combinational Area:   180388.840322
+  Combinational Area:   180405.105535
   Noncombinational Area:
                         120833.592340
   Buf/Inv Area:             77.768064
   Total Buffer Area:             0.00
   Total Inverter Area:          77.77
-  Macro/Black Box Area:  69436.171875
-  Net Area:               1018.857019
+  Macro/Black Box Area: 209907.328125
+  Net Area:               1084.729266
   -----------------------------------
-  Cell Area:            370658.604537
-  Design Area:          371677.461555
+  Cell Area:            511146.026000
+  Design Area:          512230.755266
 
 
   Design Rules
   -----------------------------------
   Total Number of Nets:           430
-  Nets With Violations:            10
-  Max Trans Violations:            10
-  Max Cap Violations:               0
+  Nets With Violations:            89
+  Max Trans Violations:            25
+  Max Cap Violations:              64
   -----------------------------------
 
 
@@ -79,18 +105,18 @@ Date   : Fri Jan 27 14:46:44 2023
   Compile CPU Statistics
   -----------------------------------------
   Resource Sharing:                    0.03
-  Logic Optimization:                  0.06
-  Mapping Optimization:                0.53
+  Logic Optimization:                  0.24
+  Mapping Optimization:                0.89
   -----------------------------------------
-  Overall Compile Time:                6.03
-  Overall Compile Wall Clock Time:     6.81
+  Overall Compile Time:                6.80
+  Overall Compile Wall Clock Time:     7.55
 
   --------------------------------------------------------------------
 
   Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
 
 
-  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+  Design (Hold)  WNS: 0.16  TNS: 26.83  Number of Violating Paths: 176
 
   --------------------------------------------------------------------
 
