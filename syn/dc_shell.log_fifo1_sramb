@@ -634,8 +634,8 @@ Threshold voltage group cell usage:
    ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
   --------- --------- --------- --------- --------- ------------------------- ---------
-    0:01:28  511534.4      0.17       1.8      40.9                           1144263424.0000
-    0:01:28  511519.9      0.18       1.9      40.9                           1143883648.0000
+    0:00:40  511534.4      0.17       1.8      40.9                           1144263424.0000
+    0:00:40  511519.9      0.18       1.9      40.9                           1143883648.0000
 
 Threshold voltage group cell usage:
 >> saed32cell_svt 100.00%
@@ -693,40 +693,40 @@ Threshold voltage group cell usage:
 
   Beginning Delay Optimization
   ----------------------------
-    0:01:28  511496.5      0.25       2.3      62.7                           1139003520.0000
-    0:01:34  511543.8      0.15       1.7      62.7                           1143754240.0000
-    0:01:34  511543.8      0.15       1.7      62.7                           1143754240.0000
-    0:01:34  511559.5      0.15       1.6      62.7                           1147318656.0000
+    0:00:41  511496.5      0.25       2.3      62.7                           1139003520.0000
+    0:00:46  511543.8      0.15       1.7      62.7                           1143754240.0000
+    0:00:46  511543.8      0.15       1.7      62.7                           1143754240.0000
+    0:00:46  511559.5      0.15       1.6      62.7                           1147318656.0000
 
 Threshold voltage group cell usage:
 >> saed32cell_svt 100.00%
-    0:01:34  511559.5      0.15       1.6      62.7                           1147318656.0000
-    0:01:34  511557.2      0.15       1.7      62.7                           1147239424.0000
+    0:00:46  511559.5      0.15       1.6      62.7                           1147318656.0000
+    0:00:46  511557.2      0.15       1.7      62.7                           1147239424.0000
 
   Beginning WLM Backend Optimization
   --------------------------------------
-    0:01:34  511544.8      0.15       1.7      62.7                           1145490048.0000
-    0:01:34  511543.5      0.15       1.7      62.7                           1145009664.0000
-    0:01:34  511543.5      0.15       1.7      62.7                           1145009664.0000
-    0:01:34  511545.8      0.15       1.7      48.9                           1144130432.0000
-    0:01:34  511545.8      0.15       1.7      48.9                           1144130432.0000
-    0:01:41  511545.8      0.16       1.7      48.9                           1143238400.0000
-    0:01:41  511545.8      0.16       1.7      48.9                           1143238400.0000
-    0:01:41  511552.9      0.15       1.7      48.9                           1145859840.0000
-    0:01:41  511552.9      0.15       1.7      48.9                           1145859840.0000
-    0:01:45  511549.9      0.16       1.6      48.9                           1145343872.0000
-    0:01:45  511549.9      0.16       1.6      48.9                           1145343872.0000
-    0:01:48  511549.1      0.16       1.7      48.9                           1144905984.0000
-    0:01:48  511549.1      0.16       1.7      48.9                           1144905984.0000
-    0:02:01  511549.1      0.17       1.7      48.9                           1144905984.0000
-    0:02:01  511549.1      0.17       1.7      48.9                           1144905984.0000
-    0:02:04  511561.6      0.14       1.6      48.9                           1145787008.0000
-    0:02:04  511561.6      0.14       1.6      48.9                           1145787008.0000
-    0:02:15  511569.7      0.16       1.8      48.9                           1146423936.0000
-    0:02:15  511569.7      0.16       1.8      48.9                           1146423936.0000
-    0:02:18  511566.9      0.15       1.6      48.9                           1144472704.0000
-    0:02:18  511566.9      0.15       1.6      48.9                           1144472704.0000
-    0:02:18  511566.9      0.15       1.6      48.9                           1144472704.0000
+    0:00:46  511544.8      0.15       1.7      62.7                           1145490048.0000
+    0:00:46  511543.5      0.15       1.7      62.7                           1145009664.0000
+    0:00:46  511543.5      0.15       1.7      62.7                           1145009664.0000
+    0:00:46  511545.8      0.15       1.7      48.9                           1144130432.0000
+    0:00:46  511545.8      0.15       1.7      48.9                           1144130432.0000
+    0:00:54  511545.8      0.16       1.7      48.9                           1143238400.0000
+    0:00:54  511545.8      0.16       1.7      48.9                           1143238400.0000
+    0:00:54  511552.9      0.15       1.7      48.9                           1145859840.0000
+    0:00:54  511552.9      0.15       1.7      48.9                           1145859840.0000
+    0:00:58  511549.9      0.16       1.6      48.9                           1145343872.0000
+    0:00:58  511549.9      0.16       1.6      48.9                           1145343872.0000
+    0:01:00  511549.1      0.16       1.7      48.9                           1144905984.0000
+    0:01:00  511549.1      0.16       1.7      48.9                           1144905984.0000
+    0:01:13  511549.1      0.17       1.7      48.9                           1144905984.0000
+    0:01:13  511549.1      0.17       1.7      48.9                           1144905984.0000
+    0:01:17  511561.6      0.14       1.6      48.9                           1145787008.0000
+    0:01:17  511561.6      0.14       1.6      48.9                           1145787008.0000
+    0:01:28  511569.7      0.16       1.8      48.9                           1146423936.0000
+    0:01:28  511569.7      0.16       1.8      48.9                           1146423936.0000
+    0:01:31  511566.9      0.15       1.6      48.9                           1144472704.0000
+    0:01:31  511566.9      0.15       1.6      48.9                           1144472704.0000
+    0:01:31  511566.9      0.15       1.6      48.9                           1144472704.0000
 
 
   Beginning Design Rule Fixing  (max_transition)  (max_capacitance)
@@ -736,13 +736,13 @@ Threshold voltage group cell usage:
    ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
   --------- --------- --------- --------- --------- ------------------------- ---------
-    0:02:18  511566.9      0.15       1.6      48.9                           1144472704.0000
+    0:01:31  511566.9      0.15       1.6      48.9                           1144472704.0000
   Global Optimization (Phase 32)
   Global Optimization (Phase 33)
   Global Optimization (Phase 34)
-    0:02:19  511625.3      0.13       2.1      29.4 wptr_full/wfull_reg/D     1149669760.0000
-    0:02:19  511609.1      0.13       2.0      28.4                           1147302912.0000
-    0:02:21  511610.9      0.13       1.6      35.2                           1145880576.0000
+    0:01:32  511625.3      0.13       2.1      29.4 wptr_full/wfull_reg/D     1149669760.0000
+    0:01:32  511609.1      0.13       2.0      28.4                           1147302912.0000
+    0:01:34  511610.9      0.13       1.6      35.2                           1145880576.0000
 
 Threshold voltage group cell usage:
 >> saed32cell_svt 100.00%
@@ -755,7 +755,7 @@ Threshold voltage group cell usage:
    ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
   --------- --------- --------- --------- --------- ------------------------- ---------
-    0:02:21  511610.9      0.13       1.6      35.2                           1145880576.0000
+    0:01:34  511610.9      0.13       1.6      35.2                           1145880576.0000
   Global Optimization (Phase 35)
   Global Optimization (Phase 36)
   Global Optimization (Phase 37)
@@ -770,45 +770,45 @@ Threshold voltage group cell usage:
   Global Optimization (Phase 46)
   Global Optimization (Phase 47)
   Global Optimization (Phase 48)
-    0:02:22  511561.3      0.13       1.9      29.4                           1136793984.0000
-    0:02:23  511554.4      0.14       1.4      35.2                           1135635456.0000
-    0:02:23  511554.4      0.14       1.4      35.2                           1135635456.0000
-    0:02:23  511551.4      0.14       1.4      35.2                           1134930688.0000
-    0:02:23  511551.4      0.14       1.4      35.2                           1134930688.0000
-    0:02:23  511551.4      0.14       1.4      35.2                           1134930688.0000
-    0:02:23  511551.4      0.14       1.4      35.2                           1134930688.0000
-    0:02:23  511551.4      0.14       1.4      35.2                           1134930688.0000
-    0:02:23  511551.4      0.14       1.4      35.2                           1134930688.0000
-    0:02:24  511551.4      0.14       1.4      35.2                           1134930688.0000
-    0:02:24  511551.4      0.14       1.4      35.2                           1134930688.0000
-    0:02:27  511558.5      0.13       1.3      35.2                           1134884224.0000
-    0:02:27  511558.5      0.13       1.3      35.2                           1134884224.0000
-    0:02:28  511558.5      0.13       1.3      35.2                           1134884224.0000
-    0:02:28  511558.5      0.13       1.3      35.2                           1134884224.0000
-    0:02:30  511565.4      0.17       1.4      35.2                           1135840128.0000
-    0:02:30  511565.4      0.17       1.4      35.2                           1135840128.0000
-    0:02:31  511567.4      0.15       1.4      35.2                           1136156032.0000
-    0:02:31  511567.4      0.15       1.4      35.2                           1136156032.0000
-    0:02:33  511582.9      0.17       1.4      35.2                           1139533056.0000
-    0:02:33  511582.9      0.17       1.4      35.2                           1139533056.0000
-    0:02:35  511583.2      0.13       1.3      35.2                           1139586176.0000
+    0:01:34  511561.3      0.13       1.9      29.4                           1136793984.0000
+    0:01:35  511554.4      0.14       1.4      35.2                           1135635456.0000
+    0:01:35  511554.4      0.14       1.4      35.2                           1135635456.0000
+    0:01:35  511551.4      0.14       1.4      35.2                           1134930688.0000
+    0:01:35  511551.4      0.14       1.4      35.2                           1134930688.0000
+    0:01:36  511551.4      0.14       1.4      35.2                           1134930688.0000
+    0:01:36  511551.4      0.14       1.4      35.2                           1134930688.0000
+    0:01:36  511551.4      0.14       1.4      35.2                           1134930688.0000
+    0:01:36  511551.4      0.14       1.4      35.2                           1134930688.0000
+    0:01:37  511551.4      0.14       1.4      35.2                           1134930688.0000
+    0:01:37  511551.4      0.14       1.4      35.2                           1134930688.0000
+    0:01:40  511558.5      0.13       1.3      35.2                           1134884224.0000
+    0:01:40  511558.5      0.13       1.3      35.2                           1134884224.0000
+    0:01:41  511558.5      0.13       1.3      35.2                           1134884224.0000
+    0:01:41  511558.5      0.13       1.3      35.2                           1134884224.0000
+    0:01:43  511565.4      0.17       1.4      35.2                           1135840128.0000
+    0:01:43  511565.4      0.17       1.4      35.2                           1135840128.0000
+    0:01:44  511567.4      0.15       1.4      35.2                           1136156032.0000
+    0:01:44  511567.4      0.15       1.4      35.2                           1136156032.0000
+    0:01:46  511582.9      0.17       1.4      35.2                           1139533056.0000
+    0:01:46  511582.9      0.17       1.4      35.2                           1139533056.0000
+    0:01:47  511583.2      0.13       1.3      35.2                           1139586176.0000
 
                                   TOTAL                                                
    ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
     TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
   --------- --------- --------- --------- --------- ------------------------- ---------
-    0:02:35  511583.2      0.13       1.3      35.2                           1139586176.0000
-    0:02:35  511533.1      0.13       1.3      35.2                           1130410112.0000
-    0:02:35  511525.2      0.13       1.3      35.2                           1129523584.0000
-    0:02:35  511525.2      0.13       1.3      35.2                           1129523584.0000
-    0:02:35  511531.3      0.13       1.3      35.2                           1130610560.0000
-    0:02:35  511551.4      0.13       1.8      29.4                           1132173184.0000
-    0:02:38  511541.5      0.14       1.4      35.2                           1131635712.0000
-    0:02:38  511541.5      0.14       1.4      35.2                           1131635712.0000
-    0:02:38  511541.2      0.14       1.4      35.2                           1131582592.0000
-    0:02:38  511541.2      0.14       1.4      35.2                           1131582592.0000
-    0:02:38  511541.2      0.14       1.4      35.2                           1131582592.0000
-    0:02:38  511538.4      0.14       1.4      35.2                           1130403968.0000
+    0:01:47  511583.2      0.13       1.3      35.2                           1139586176.0000
+    0:01:48  511533.1      0.13       1.3      35.2                           1130410112.0000
+    0:01:48  511525.2      0.13       1.3      35.2                           1129523584.0000
+    0:01:48  511525.2      0.13       1.3      35.2                           1129523584.0000
+    0:01:48  511531.3      0.13       1.3      35.2                           1130610560.0000
+    0:01:48  511551.4      0.13       1.8      29.4                           1132173184.0000
+    0:01:50  511541.5      0.14       1.4      35.2                           1131635712.0000
+    0:01:50  511541.5      0.14       1.4      35.2                           1131635712.0000
+    0:01:50  511541.2      0.14       1.4      35.2                           1131582592.0000
+    0:01:51  511541.2      0.14       1.4      35.2                           1131582592.0000
+    0:01:51  511541.2      0.14       1.4      35.2                           1131582592.0000
+    0:01:51  511538.4      0.14       1.4      35.2                           1130403968.0000
 Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/io_std/db_nldm/saed32io_wb_ss0p95v125c_2p25v.db'
 Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram_lp/db_nldm/saed32sramlp_ss0p75v125c_i0p75v.db'
 Loading db file '/pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/pll/db_nldm/saed32pll_ss0p95v125c_2p25v.db'
@@ -826,310 +826,12 @@ Warning: Design has unannotated black box outputs. (PWR-428)
 Writing verilog file '/home/vpamidi/common/Documents/ECE581-2023/lab2-vpamidi9/syn/outputs/fifo1_sramb.dc.vg'.
 Writing ddc file '../outputs/fifo1_sramb.dc.ddc'.
 1
-dc_shell> report_timing -group INTERNAL -max_paths 1
-Information: Updating design information... (UID-85)
- 
-****************************************
-Report : timing
-        -path full
-        -delay max
-        -group INTERNAL
-        -max_paths 1
-Design : fifo1_sramb
-Version: Q-2019.12-SP3
-Date   : Fri Jan 27 21:50:13 2023
-****************************************
-
-Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
-Wire Load Model Mode: enclosed
-
-  Startpoint: wptr_full/wbin_reg_0_
-              (rising edge-triggered flip-flop clocked by wclk)
-  Endpoint: wptr_full/wfull_reg
-            (rising edge-triggered flip-flop clocked by wclk)
-  Path Group: INTERNAL
-  Path Type: max
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  fifo1_sramb        540000                saed32rvt_ss0p95v125c
-  wptr_full_ADDRSIZE10
-                     8000                  saed32rvt_ss0p95v125c
-
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock wclk (rise edge)                                  0.00       0.00
-  clock network delay (ideal)                             1.00       1.00
-  wptr_full/wbin_reg_0_/CLK (SDFFARX2_RVT)                0.00       1.00 r
-  wptr_full/wbin_reg_0_/QN (SDFFARX2_RVT)                 0.17       1.17 f
-  wptr_full/U26/Y (INVX2_RVT)                             0.03       1.20 r
-  wptr_full/U25/Y (NAND2X0_RVT)                           0.04       1.24 f
-  wptr_full/U82/Y (OR2X1_RVT)                             0.06       1.30 f
-  wptr_full/U11/Y (INVX0_RVT)                             0.02       1.32 r
-  wptr_full/U12/Y (NAND2X0_RVT)                           0.03       1.35 f
-  wptr_full/U81/Y (NAND2X0_RVT)                           0.06       1.41 r
-  wptr_full/U21/Y (AND2X1_RVT)                            0.07       1.48 r
-  wptr_full/U20/Y (MUX21X2_RVT)                           0.10       1.57 r
-  wptr_full/U24/Y (XNOR2X2_RVT)                           0.09       1.66 r
-  wptr_full/U23/Y (AND3X1_RVT)                            0.07       1.73 r
-  wptr_full/U22/Y (AND4X1_RVT)                            0.08       1.81 r
-  wptr_full/wfull_reg/D (SDFFARX1_RVT)                    0.00       1.81 r
-  data arrival time                                                  1.81
-
-  clock wclk (rise edge)                                  0.90       0.90
-  clock network delay (ideal)                             1.00       1.90
-  clock uncertainty                                      -0.01       1.89
-  wptr_full/wfull_reg/CLK (SDFFARX1_RVT)                  0.00       1.89 r
-  library setup time                                     -0.13       1.76
-  data required time                                                 1.76
-  --------------------------------------------------------------------------
-  data required time                                                 1.76
-  data arrival time                                                 -1.81
-  --------------------------------------------------------------------------
-  slack (VIOLATED)                                                  -0.05
-
-
-1
-dc_shell> report_timing -group OUTPUTS -max_paths 1
- 
-****************************************
-Report : timing
-        -path full
-        -delay max
-        -group OUTPUTS
-        -max_paths 1
-Design : fifo1_sramb
-Version: Q-2019.12-SP3
-Date   : Fri Jan 27 21:50:29 2023
-****************************************
-
-Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
-Wire Load Model Mode: enclosed
-
-  Startpoint: fifomem/genblk1_2__U
-              (rising edge-triggered flip-flop clocked by rclk)
-  Endpoint: rdata[0] (output port clocked by rclk)
-  Path Group: OUTPUTS
-  Path Type: max
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  fifo1_sramb        540000                saed32rvt_ss0p95v125c
-  fifomem_DATASIZE8_ADDRSIZE10
-                     280000                saed32rvt_ss0p95v125c
-
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock rclk (rise edge)                                  0.00       0.00
-  clock network delay (ideal)                             1.00       1.00
-  fifomem/genblk1_2__U/CE2 (SRAMLP2RW128x8)               0.00       1.00 r
-  fifomem/genblk1_2__U/O2[0] (SRAMLP2RW128x8)             0.24       1.24 f
-  fifomem/U18/Y (NAND4X0_RVT)                             0.07       1.30 r
-  fifomem/U30/Y (OR2X2_RVT)                               0.09       1.39 r
-  fifomem/U38/Y (INVX8_RVT)                               0.04       1.42 f
-  fifomem/rdata[0] (fifomem_DATASIZE8_ADDRSIZE10)         0.00       1.42 f
-  io_l_rdata_0_/PADIO (D8I1025_NS)                        1.38       2.81 f
-  rdata[0] (out)                                          0.00       2.81 f
-  data arrival time                                                  2.81
-
-  clock rclk (rise edge)                                  0.90       0.90
-  clock network delay (ideal)                             1.00       1.90
-  clock uncertainty                                      -0.01       1.89
-  output external delay                                   0.90       2.79
-  data required time                                                 2.79
-  --------------------------------------------------------------------------
-  data required time                                                 2.79
-  data arrival time                                                 -2.81
-  --------------------------------------------------------------------------
-  slack (VIOLATED)                                                  -0.02
-
-
-1
-dc_shell> report_timing -group INPUTS -max_paths 1
- 
-****************************************
-Report : timing
-        -path full
-        -delay max
-        -group INPUTS
-        -max_paths 1
-Design : fifo1_sramb
-Version: Q-2019.12-SP3
-Date   : Fri Jan 27 21:50:38 2023
-****************************************
-
-Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
-Wire Load Model Mode: enclosed
-
-  Startpoint: winc (input port clocked by wclk)
-  Endpoint: wptr_full/wfull_reg
-            (rising edge-triggered flip-flop clocked by wclk)
-  Path Group: INPUTS
-  Path Type: max
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  fifo1_sramb        540000                saed32rvt_ss0p95v125c
-  wptr_full_ADDRSIZE10
-                     8000                  saed32rvt_ss0p95v125c
-
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock wclk (rise edge)                                  0.00       0.00
-  clock network delay (ideal)                             1.00       1.00
-  input external delay                                   -0.10       0.90 f
-  winc (in)                                               0.00       0.90 f
-  io_b_winc/DOUT (I1025_NS)                               0.46       1.36 f
-  wptr_full/winc (wptr_full_ADDRSIZE10)                   0.00       1.36 f
-  wptr_full/U15/Y (AND2X1_RVT)                            0.10       1.46 f
-  wptr_full/U14/Y (NAND2X0_RVT)                           0.05       1.51 r
-  wptr_full/U13/Y (NAND2X0_RVT)                           0.04       1.54 f
-  wptr_full/U18/Y (AND2X1_RVT)                            0.07       1.62 f
-  wptr_full/U10/Y (MUX21X2_RVT)                           0.10       1.72 f
-  wptr_full/U9/Y (XNOR2X2_RVT)                            0.09       1.81 r
-  wptr_full/U22/Y (AND4X1_RVT)                            0.09       1.90 r
-  wptr_full/wfull_reg/D (SDFFARX1_RVT)                    0.00       1.90 r
-  data arrival time                                                  1.90
-
-  clock wclk (rise edge)                                  0.90       0.90
-  clock network delay (ideal)                             1.00       1.90
-  clock uncertainty                                      -0.01       1.89
-  wptr_full/wfull_reg/CLK (SDFFARX1_RVT)                  0.00       1.89 r
-  library setup time                                     -0.13       1.76
-  data required time                                                 1.76
-  --------------------------------------------------------------------------
-  data required time                                                 1.76
-  data arrival time                                                 -1.90
-  --------------------------------------------------------------------------
-  slack (VIOLATED)                                                  -0.14
-
-
-1
-dc_shell> report_timing -group OUTPUTS -max_paths 1
- 
-****************************************
-Report : timing
-        -path full
-        -delay max
-        -group OUTPUTS
-        -max_paths 1
-Design : fifo1_sramb
-Version: Q-2019.12-SP3
-Date   : Fri Jan 27 21:51:14 2023
-****************************************
-
-Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
-Wire Load Model Mode: enclosed
-
-  Startpoint: fifomem/genblk1_2__U
-              (rising edge-triggered flip-flop clocked by rclk)
-  Endpoint: rdata[0] (output port clocked by rclk)
-  Path Group: OUTPUTS
-  Path Type: max
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  fifo1_sramb        540000                saed32rvt_ss0p95v125c
-  fifomem_DATASIZE8_ADDRSIZE10
-                     280000                saed32rvt_ss0p95v125c
-
-  Point                                                   Incr       Path
-  --------------------------------------------------------------------------
-  clock rclk (rise edge)                                  0.00       0.00
-  clock network delay (ideal)                             1.00       1.00
-  fifomem/genblk1_2__U/CE2 (SRAMLP2RW128x8)               0.00       1.00 r
-  fifomem/genblk1_2__U/O2[0] (SRAMLP2RW128x8)             0.24       1.24 f
-  fifomem/U18/Y (NAND4X0_RVT)                             0.07       1.30 r
-  fifomem/U30/Y (OR2X2_RVT)                               0.09       1.39 r
-  fifomem/U38/Y (INVX8_RVT)                               0.04       1.42 f
-  fifomem/rdata[0] (fifomem_DATASIZE8_ADDRSIZE10)         0.00       1.42 f
-  io_l_rdata_0_/PADIO (D8I1025_NS)                        1.38       2.81 f
-  rdata[0] (out)                                          0.00       2.81 f
-  data arrival time                                                  2.81
-
-  clock rclk (rise edge)                                  0.90       0.90
-  clock network delay (ideal)                             1.00       1.90
-  clock uncertainty                                      -0.01       1.89
-  output external delay                                   0.90       2.79
-  data required time                                                 2.79
-  --------------------------------------------------------------------------
-  data required time                                                 2.79
-  data arrival time                                                 -2.81
-  --------------------------------------------------------------------------
-  slack (VIOLATED)                                                  -0.02
-
-
-1
-dc_shell> report_timing -group INTERNAL -max_paths 1 -transition_time
- 
-****************************************
-Report : timing
-        -path full
-        -delay max
-        -group INTERNAL
-        -max_paths 1
-        -transition_time
-Design : fifo1_sramb
-Version: Q-2019.12-SP3
-Date   : Fri Jan 27 21:52:02 2023
-****************************************
-
-Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c
-Wire Load Model Mode: enclosed
-
-  Startpoint: wptr_full/wbin_reg_0_
-              (rising edge-triggered flip-flop clocked by wclk)
-  Endpoint: wptr_full/wfull_reg
-            (rising edge-triggered flip-flop clocked by wclk)
-  Path Group: INTERNAL
-  Path Type: max
-
-  Des/Clust/Port     Wire Load Model       Library
-  ------------------------------------------------
-  fifo1_sramb        540000                saed32rvt_ss0p95v125c
-  wptr_full_ADDRSIZE10
-                     8000                  saed32rvt_ss0p95v125c
-
-  Point                                        Trans      Incr       Path
-  --------------------------------------------------------------------------
-  clock wclk (rise edge)                                  0.00       0.00
-  clock network delay (ideal)                             1.00       1.00
-  wptr_full/wbin_reg_0_/CLK (SDFFARX2_RVT)      0.33      0.00       1.00 r
-  wptr_full/wbin_reg_0_/QN (SDFFARX2_RVT)       0.05      0.17       1.17 f
-  wptr_full/U26/Y (INVX2_RVT)                   0.03      0.03       1.20 r
-  wptr_full/U25/Y (NAND2X0_RVT)                 0.05      0.04       1.24 f
-  wptr_full/U82/Y (OR2X1_RVT)                   0.02      0.06       1.30 f
-  wptr_full/U11/Y (INVX0_RVT)                   0.02      0.02       1.32 r
-  wptr_full/U12/Y (NAND2X0_RVT)                 0.08      0.03       1.35 f
-  wptr_full/U81/Y (NAND2X0_RVT)                 0.05      0.06       1.41 r
-  wptr_full/U21/Y (AND2X1_RVT)                  0.04      0.07       1.48 r
-  wptr_full/U20/Y (MUX21X2_RVT)                 0.04      0.10       1.57 r
-  wptr_full/U24/Y (XNOR2X2_RVT)                 0.03      0.09       1.66 r
-  wptr_full/U23/Y (AND3X1_RVT)                  0.03      0.07       1.73 r
-  wptr_full/U22/Y (AND4X1_RVT)                  0.04      0.08       1.81 r
-  wptr_full/wfull_reg/D (SDFFARX1_RVT)          0.04      0.00       1.81 r
-  data arrival time                                                  1.81
-
-  clock wclk (rise edge)                                  0.90       0.90
-  clock network delay (ideal)                             1.00       1.90
-  clock uncertainty                                      -0.01       1.89
-  wptr_full/wfull_reg/CLK (SDFFARX1_RVT)                  0.00       1.89 r
-  library setup time                                     -0.13       1.76
-  data required time                                                 1.76
-  --------------------------------------------------------------------------
-  data required time                                                 1.76
-  data arrival time                                                 -1.81
-  --------------------------------------------------------------------------
-  slack (VIOLATED)                                                  -0.05
-
-
-1
 dc_shell> exit
 
 Memory usage for this session 201 Mbytes.
 Memory usage for this session including child processes 201 Mbytes.
 CPU usage for this session 94 seconds ( 0.03 hours ).
-Elapsed time for this session 327 seconds ( 0.09 hours ).
+Elapsed time for this session 118 seconds ( 0.03 hours ).
 
 Thank you...
 

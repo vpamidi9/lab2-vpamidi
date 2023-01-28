@@ -13,7 +13,7 @@ Report : timing
         -capacitance
 Design : fifo1_sramb
 Version: Q-2019.12-SP3
-Date   : Fri Jan 27 21:49:26 2023
+Date   : Fri Jan 27 22:06:05 2023
 ****************************************
 
 Operating Conditions: ss0p95v125c   Library: saed32rvt_ss0p95v125c

@@ -38,7 +38,7 @@ set_false_path -from [get_clocks rclk ] -to [ get_clocks wclk]
 
 # set_load
 
-#group_path -name INTERNAL -from [all_clocks] -to [all_clocks ]
+group_path -name INTERNAL -from [all_clocks] -to [all_clocks ]
 group_path -name INPUTS -from [ get_ports -filter "direction==in&&full_name!~*clk*" ]
 group_path -name OUTPUTS -to [ get_ports -filter "direction==out" ]
 set_input_delay -max 0.1 -clock wclk2x {wdata_in[*]}
